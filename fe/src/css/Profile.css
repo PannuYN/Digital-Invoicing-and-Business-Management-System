@@ -1,0 +1,31 @@
+
+
+.profile-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.profile-box h2 {
+    margin-top: 0;
+}
+
+.profile-info {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.profile-info label {
+    font-weight: bold;
+}
+
+.profile-info p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
