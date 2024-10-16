@@ -1,0 +1,26 @@
+/* Pagination.css */
+
+/* Style the pagination container */
+.custom-pagination {
+    margin-top: 20px; /* Add space between the pagination and other elements */
+    border-color: #027265;
+  }
+  
+  /* Style the pagination buttons */
+  .custom-pagination .page-link {
+    color: black; /* Change the color of the pagination text */
+    background-color: white; /* Change the background color of the pagination buttons */
+  }
+  
+  /* Style the active pagination button */
+  .custom-pagination .page-item.active .page-link {
+    background-color: #027265; /* Change the background color of the active pagination button */
+    color: white; /* Change the text color of the active pagination button */
+  }
+  
+  /* Style the pagination buttons on hover */
+  .custom-pagination .page-link:hover {
+    background-color: #027265; /* Change the background color of the pagination buttons on hover */
+    color: white; /* Change the text color of the pagination buttons on hover */
+  }
+  

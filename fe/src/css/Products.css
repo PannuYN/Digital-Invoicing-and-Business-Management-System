@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.upper-half {
+    height: 50%; /* Make upper half take up half of the screen */
+    background-color: #ffffff; /* White background color */
+}
+
+.lower-half {
+    height: 50%; /* Make lower half take up half of the screen */
+    align-items: center;
+    /*background-color: #027265; /* Teal background color */
+    /*background: linear-gradient(to top, #027265, transparent); /* Gradient from white to transparent */
+}
+
+.search-button {
+  border: none;
+  color: black;
+  background-color: transparent;
+}
+.search-button:hover{
+    color: #027265;
+    background-color: transparent;
+}
+
+.product-container {
+    padding: 20px; /* Adjust padding as needed */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Apply border radius */
+    background-color: white; /* Set background color */
+    box-shadow: 0 0 10px rgba(2, 114, 101, 0.5); /* Apply shadow with blur effect */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.unclickable-btn{
+    border-radius: 6px;
+    background-color: transparent;
+    color: black;
+    padding: 4px;
+    border: 1px solid #027265;
+    cursor: not-allowed; 
+    pointer-events: none;
+    margin-left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+
+
+

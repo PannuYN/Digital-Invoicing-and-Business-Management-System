@@ -1,0 +1,80 @@
+.invoice-form {
+    border: none;
+    padding-bottom: 2vw; /* Adjust padding-top and padding-bottom */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    max-width: 600px; /* Set maximum width */
+    width: 90%; /* Set width to 90% of the viewport width */
+  }
+  
+  
+  /* Example of making text within the container smaller on smaller screens */
+  @media screen and (max-width: 600px) {
+    .invoice-form {
+        font-size: 80%; /* Reduce font size to 80% of the default */
+    }
+  }
+  
+    .first-right, .second-left, .second-right {
+      margin-bottom: 10px;
+    }
+    
+    .first-right {   
+      text-align: right;
+    }
+  
+    .second-left {
+      float: left;
+      text-align: left;
+    }
+    
+    .second-right {
+      font-size: small;
+      float: right;
+      width: 200px;
+    }
+    
+    .invoice-table {
+      width: 100%;
+      border-collapse: none;
+      margin-top: 20px;
+    }
+    
+    .invoice-table th, .invoice-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    .total-section {
+      margin-top: 20px;
+    }
+    
+    .total-section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .grand-total {
+      float: right;
+    }
+    
+    .invoice-info {
+      display: flex;
+      margin-bottom: 1px; /* Adjust the margin between each pair of label and value */
+    }
+    
+    .label {
+      flex: 1; /* Let the label grow to take available space */
+      text-align: left; /* Align the label to the left */
+      margin-right: auto; /* Adjust the margin between label and value */
+    }
+    
+    .value {
+      flex: 1; /* Let the value grow more to take more space */
+      text-align: right; /* Align the value to the right */
+    }
+      

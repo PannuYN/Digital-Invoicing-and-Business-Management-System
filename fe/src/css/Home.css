@@ -1,0 +1,38 @@
+.regularBtn{
+    background-color: black;
+    color: white;
+}
+.regularBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+.regularGreenBtn{
+    background-color: #027265;
+    color: white;
+}
+.regularGreenBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.deleteBtn{
+    background-color: red;
+    color: white;
+}
+.deleteBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+.navBtn{
+    background-color: white;
+    color: black;
+}
+
+.gradient-container {
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff 60%, #027265);
+}
+
+

@@ -1,0 +1,26 @@
+/* CustomStyles.css */
+.myContainer {
+    padding: 20px;
+  }
+  
+  .myRow {
+    margin-bottom: 10px;
+  }
+  
+  .myCol {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  /* styles.css */
+.upper-home {
+  height: 50vh; /* 50% of viewport height */
+  background-color: white;
+}
+
+.lower-home {
+  height: 50vh; /* 50% of viewport height */
+  background-color: green;
+}
+
+  
